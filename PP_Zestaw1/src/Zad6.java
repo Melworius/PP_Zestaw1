@@ -12,12 +12,64 @@
 */
 package src;
 
+import java.util.Scanner;
 public class Zad6 {
 
 	public static void main(String[] args) {
 		
+		int a;
+		int b;
+		char znak;
 		
+		Scanner dane = new Scanner(System.in);
+		System.out.println("Podaj liczbê a");
+		a = dane.nextInt();
+		System.out.println("Podaj liczbê b");
+		b = dane.nextInt();
+		
+		System.out.println("Dodawanie +");
+		System.out.println("Odejmowanie -");
+		System.out.println("Mno¿enie *");
+		System.out.println("Dzielenie /");
+		System.out.println("Modulo %");
 
+		znak = dane.next().charAt(0);
+		switch(znak) {
+		
+		case '+': {
+			System.out.println(a+b);
+			break;
+		}
+		case '-': {
+			System.out.println(a-b);
+			break;
+		}
+		case '*': {
+			System.out.println(a*b);
+			break;	
+		}
+		case '/': {
+			if(b != 0) {
+			System.out.println(a/b + "reszty" + a%b);
+		}
+		else {
+			System.out.println("Nie dzielimy przez 0");
+		}
+			break;
+		}
+		
+		case '%': {
+			if(b != 0) {
+			System.out.println(a%b);
+		}
+		else {
+			System.out.println("Nie dzielimy przez 0");
+		}
+			break;
+		}
+		
+		}
+		dane.close();
 	}
 
 }
