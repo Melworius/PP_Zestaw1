@@ -4,6 +4,8 @@
  * • do 85.528 podatek wynosi 18% podstawy minus 556,02 PLN,
  * • od 85.528 podatek wynosi 14.839,02 z³ + 32% nadwy¿ki ponad 85.528,00
 */
+
+package src;
 import java.util.Scanner;
 public class Zad4
 {

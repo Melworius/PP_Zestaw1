@@ -2,8 +2,8 @@
  * Celsjusza na stopnie w skali Fahrenheita (stopnie Fahrenheita = 1.8 * stopnie
  * Celsjusza + 32.0)
 */
-package src;
 
+package src;
 import java.util.Scanner;
 
 public class Zad1

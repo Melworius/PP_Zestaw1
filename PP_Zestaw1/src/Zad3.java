@@ -2,6 +2,8 @@
  * wg. wzoru: waga/wzrost^2 . Je¿eli wynik jest w przedziale (18,5 - 24,9) 
  * to wypisuje ”waga prawid³owa”, je¿eli poni¿ej to ”niedowaga”, je¿eli powy¿ej ”nadwaga”.
 */
+
+package src;
 import java.util.Scanner;
 
 public class Zad3

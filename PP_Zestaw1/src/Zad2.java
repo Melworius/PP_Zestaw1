@@ -1,7 +1,7 @@
 /* Wczytaæ od u¿ytkownika 3 liczby ca³kowite i wypisaæ na ekran 
  * najwiêksz¹ oraz najmniejsz¹ z nich.
 */
-
+package src;
 
 import java.util.Scanner;
 

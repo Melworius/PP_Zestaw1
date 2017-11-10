@@ -11,6 +11,8 @@
  * czy podane dane mieszcz¹ siê w okreœlonych powy¿ej zakresach, a wprzypadku b³êdu 
  * pytaæ prosiæ u¿ytkownika ponownie o podanie danych.
 */
+
+package src;
 import java.util.Scanner;
 
 public class Zad5
