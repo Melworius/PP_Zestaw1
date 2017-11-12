@@ -70,6 +70,8 @@ public class Zad6 {
 		
 		}
 		dane.close();
+		
+		// Niestety nie mam pojêcia jak wymusiæ zakoñczenie dzia³ania programu
 	}
 
 }
